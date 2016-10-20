@@ -5,7 +5,7 @@ import {mockedDataArray} from "../mock-dataItems"
 
 
 
-// >> ext-listview-basic-code
+// >> ext-listview-two-lines-code
 @Component({
     selector: "two-line-listview",
     templateUrl: "ui-extended/listview/two-line/two-line-listview.component.html",
@@ -32,4 +32,4 @@ export class TwoLineListViewExampleComponent implements OnInit {
         console.log(args.index);
     }   
 }
-// << ext-listview-basic-code
+// << ext-listview-two-lines-code
